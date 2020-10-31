@@ -1,4 +1,4 @@
-package Lesson2;
+package constructors;
 
   class ConsDemo {
     public static void main(String args[])

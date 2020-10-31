@@ -1,4 +1,4 @@
-package Lesson3;
+package variables;
 //Instance Variables
 //        Instance variables are declared in a class, but outside a method, constructor or any block.
 //        Instance variables are created when an object is created with the use of the keyword 'new'
@@ -21,8 +21,8 @@ public class InstanceVariableExample {
         empOne.setSalary(1000);
         String empName = empOne.name;
 
-        System.out.println("Lesson3.Employee Name:  " + empName );
-        System.out.println("Lesson3.Employee Salary:  " + empOne.getSalary() );
+        System.out.println("variables.Employee Name:  " + empName );
+        System.out.println("variables.Employee Salary:  " + empOne.getSalary() );
         empOne.printEmp();
     }
 }
@@ -30,7 +30,7 @@ public class InstanceVariableExample {
  class Employee {
      // this instance variable is visible for any child class.
      public String name;
-     // salary  variable is visible in Lesson3.Employee class only.
+     // salary  variable is visible in variables.Employee class only.
      private double salary;
 
      // The name variable is assigned in the constructor.

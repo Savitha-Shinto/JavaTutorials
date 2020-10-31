@@ -1,3 +1,5 @@
+package sumofseries;
+
 import java.util.Scanner;
 
 public class SumOfSeries {

@@ -1,4 +1,4 @@
-package Lesson4;
+package identifiers;
 
 public class IdentifiersClass {
     public static void main(String args[]){

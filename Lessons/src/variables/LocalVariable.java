@@ -1,4 +1,4 @@
-package Lesson3;
+package variables;
 //Local variables
 //        Local variables are declared in methods, constructors, or blocks.
 //        Local variables are created when the method, constructor
