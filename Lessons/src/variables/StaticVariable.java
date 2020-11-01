@@ -13,12 +13,17 @@ public class StaticVariable {
         Payroll p = new Payroll();
         Payroll p1 = new Payroll();
         System.out.println(Payroll.DEPARTMENT + "average salary:" + Payroll.getSalary());
+        System.out.println(p.name);
+        System.out.println(p1.name);
+        System.out.println(Payroll.EMPNAME);
     }
 
 }
 class Payroll {
+    String name = "savi";
     // DEPARTMENT is a constant
     public static final String DEPARTMENT = "Development ";
+    public static String EMPNAME = "TEST ";
     public static double getSalary(){
         return 1000;
     }

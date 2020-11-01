@@ -23,8 +23,12 @@ public class LocalVariable {
 class Puppy {
 
     public int pupAge() {
-        int age=0;
-        age = age + 7;
-        return age;
+        int age = 10;
+        int age1 = age + 7;
+        return age1;
     }
+//    public String getNameOfMyPuppy(){
+//        int age=0;
+//        return "Malli";
+//    }
 }
