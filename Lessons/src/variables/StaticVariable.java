@@ -20,7 +20,7 @@ public class StaticVariable {
 
 }
 class Payroll {
-    String name = "savi";
+    String name = "Savitha";
     // DEPARTMENT is a constant
     public static final String DEPARTMENT = "Development ";
     public static String EMPNAME = "TEST ";
