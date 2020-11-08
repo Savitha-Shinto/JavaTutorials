@@ -1,6 +1,6 @@
 package accessspecifiers;
 
-
+import java.lang.String;
 import accessspecifiersub.ProtectedParent;
 
 class ProtectedChild extends ProtectedParent {
